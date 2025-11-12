@@ -1,0 +1,39 @@
+/*Reset configurações aplicadas pelo navegador */ 
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box; /* encaixa o pedding e a border no tamanho total da caixa*/
+    font-size: 100%;
+}
+
+/*Definição de estilos globais */
+html {
+    font-size: var(--font-size-base);
+    font-family: var(--font-family-base);
+}
+
+/*Exemplo de importação de fonte personalizada */
+@font-face {
+    font-family: sauce;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+:root {
+    /*Fontes*/
+    --font-family-base: sauce;
+
+    /* Tamanho das Fontes */
+    --font-size-base: 10px;
+    --font-size-menu: 1.6rem;
+    --font-size-botao: 1.6rem;
+
+    /* Cores */
+    --cor-proclen-green-light: #36B864;
+    --cor-proclen-green-dark: #1a9344;
+    --cor-proclen-white: #FFFFFF;
+    --cor-proclen-gray: #4D4D4D;
+    --cor-proclen-black: #000000;
+
+
+}
